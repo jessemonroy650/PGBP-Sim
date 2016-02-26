@@ -35,7 +35,7 @@ var app = {
     },
     pluginTest : function() {
         window.plugins.sim.getSimInfo(
-            function(result) {app.showIt('conent', result); },
+            function(result) {app.showIt('content', result); },
             function(error)  {app.showIt('info', error); }
             );
     }
